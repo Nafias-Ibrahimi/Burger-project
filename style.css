@@ -63,7 +63,7 @@ body {
 @media screen and (max-width: 768px) {
   .nav-links {
     position: absolute;
-    top: 60px;
+    top:100%;
     left: 0;
     right: 0;
     height: 0;
@@ -80,5 +80,9 @@ body {
 
   .burger {
     display: flex;
+  }
+  .nav-links.active{
+    height: auto;
+    padding: 10px 0;
   }
 }
